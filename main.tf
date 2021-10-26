@@ -26,11 +26,10 @@ module "getEC2" {
    // key_name="${ec2.getEC2.key_name}"
 }
 
-/*\
 module "getVPC" {
     source = "./vpc"
 }
-*/
+
 /*----------end of single ec2 & VPC---------*/
 
 /*----------for multiple ec2----------------*/
